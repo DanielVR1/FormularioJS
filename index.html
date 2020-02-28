@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body onload="inicializar()">
+  <p id="pagina"></p>
+  <div id="ocultar">
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks tamaño" onclick="AbrirPestañas(event, 'Registro')">Registro</button>
+  <button class="tablinks tamaño" onclick="AbrirPestañas(event, 'IniciarSesion')">Iniciar Sesion</button>
+</div>
+
+<!-- Tab content -->
+<div id="Registro" class="tabcontent">
+  <h3>Registro</h3>
+<form method="POST" action="">
+  <section class="form-register">
+    <h5 id="pag" class="regis"></h5>
+    *Nombre: <br><input class="controls" type="text" id="nombre" placeholder="Nombre..." required><br><br>
+    *Apellidos: <br><input class="controls" type="text" id="apellidos" placeholder="Apellidos..." required><br><br>
+    *Correo Electronico o Telefono: <br><input class="controls" type="text" id="email" placeholder="Correo o Telefono..." required><br><br>
+    *Contraseña: <br><input class="controls" type="password" id="contraseña" placeholder="Contraseña..." required><br><br>
+    *Confirmación Contraseña: <br><input class="controls" type="password" id="Ccontraseña" required placeholder="Confirmar Contraseña..."><br><br>
+    Fecha de Nacimiento:<br> <input class="controls2" type="date" id="Fnacimiento"><br><br>
+    <input class="boton" type="button" id="botones" value="Enviar">
+  </section>
+</form>
+</div>
+
+<div id="IniciarSesion" class="tabcontent">
+  <h3>Iniciar Sesion</h3>
+  <section class="form-register">
+<form method="POST" action="">
+  *Usuario:<br> <input class="controls1" type="text" id="Usuario" placeholder="Correo o Telefono.." required><br>
+  <br>
+  *Contraseña:<br> <input class="controls" type="password" name="password" id="password" placeholder="Contraseña..." required>
+  <button class="btn" type="button" onclick="mostrarContraseña()">Ver</button>
+  <br><br>
+  <a href="#"><input class="boton" type="button" id="boton" value="Enviar"></a>
+</form>
+</div>
+</section>
+</div>
+<script src="js/js.js"></script>
+</body>
+</html>
