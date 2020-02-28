@@ -1,0 +1,20 @@
+Pruebas Manuales:
+  He probado a introducir los siguientes correos y contraseñas y si han funcionado:
+    Correos:
+      pepe@gmail.com
+      danielvil1997@hotmail.com
+      pruebas1@gmail.com
+    Contraseñas:
+      qwertyA123@
+      Pruebas1@
+      Holaquetal1@
+    
+  He probado a introducir los siguientes correos y contraseñas y no ha funcionado:
+    Cuentas:
+      pepegmail.com
+      hola@quetal
+      @daniel.es
+   Contraseñas:
+      15634fteG
+      55fewT#
+      dgdcg@1
